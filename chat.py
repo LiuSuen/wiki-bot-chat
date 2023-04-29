@@ -19,4 +19,4 @@ def reply():
         return jsonify({'response': "I'm sorry, I don't know what you mean."})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)
